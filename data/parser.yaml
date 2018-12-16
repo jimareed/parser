@@ -1,0 +1,4 @@
+input
+  - (?P<school>.+) (\[)(?P<type>\S+)(\]) (?P<location>\S+) (.+)(\:) (?P<count>\d+)
+output: 
+  - ${school}|${type}|${location}|${count}
